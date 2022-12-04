@@ -43,3 +43,33 @@ hr{
     margin-left: 0;
     border: 1px solid #D1D1D1;
 }
+/* top blog style */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 93px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog-desc{
+    font-size: 20px;
+    padding: 0px 20px 20px 20px;
+    font-weight: 500;
+}
+.by{
+    color: #9F9F9F;
+    font-weight: 400;
+}
+.blogger-name{
+    color: #562EFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0px 0px 10px;
+}
